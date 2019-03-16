@@ -30,6 +30,7 @@ input[type="password"].input-validation-error {
 <body>
     <form>
         <fieldset>
+            <legend>unobtrusive</legend>
             <label for="myNumber">Enter a number between 50 and 100</label>
             <input data-val="true" data-val-required="This field is required..." data-val-number="Please enter a number..."
                 data-val-range="Must be between 50 and 100..." data-val-range-min="50" data-val-range-max="100" id="myNumber"
@@ -40,9 +41,6 @@ input[type="password"].input-validation-error {
         </fieldset>
     </form>
     <script>
-        $(function () {
-            //$("form").validate();
-        });
     </script>
 </body>
 
