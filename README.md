@@ -1,0 +1,2 @@
+# jQueryPractices
+jQuery Practices
