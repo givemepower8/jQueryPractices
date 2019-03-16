@@ -41,3 +41,4 @@ All unobtrusive validation attributes is called once the scripts is loaded, it's
 - [Unobtrusive Validation - ASP.NET MVC Demystified](https://exceptionnotfound.net/asp-net-mvc-demystified-unobtrusive-validation/)
 - [Custom Validation](https://johnnyreilly.github.io/jQuery.Validation.Unobtrusive.Native/AdvancedDemo/CustomValidation.html)
 - [jQuery Unobtrusive AJAX For Partial Updates In ASP.NET MVC](https://www.c-sharpcorner.com/article/unobtrusive-ajax-and-jquery-for-partial-updates-in-asp-net-mvc/)
+- [Using the jQuery Validate Plugin with HTML5 Data Attribute Rules](https://johnnycode.com/2014/03/27/using-jquery-validate-plugin-html5-data-attribute-rules/)
