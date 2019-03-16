@@ -1,0 +1,26 @@
+{
+  "name": "jQueryPractices",
+  "version": "1.0.0",
+  "description": "jQuery Practices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --inline --content-base ./public --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/givemepower8/jQueryPractices.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/givemepower8/jQueryPractices/issues"
+  },
+  "homepage": "https://github.com/givemepower8/jQueryPractices#readme",
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  }
+}

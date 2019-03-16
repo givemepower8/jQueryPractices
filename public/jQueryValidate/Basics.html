@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Basics</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.11/jquery.validate.unobtrusive.js"></script>
+    <style>
+        label {display:block}
+.field-validation-error {
+    color: #e80c4d;
+    font-weight: bold;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input[type="text"].input-validation-error,
+input[type="password"].input-validation-error {
+    border: 1px solid #e80c4d;
+}
+    </style>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <label for="myNumber">Enter a number between 50 and 100</label>
+            <input data-val="true" data-val-required="This field is required..." data-val-number="Please enter a number..."
+                data-val-range="Must be between 50 and 100..." data-val-range-min="50" data-val-range-max="100" id="myNumber"
+                name="myNumber" type="text" value="" />
+            <span data-valmsg-for="myNumber" data-valmsg-replace="true"></span>
+            <br />
+            <input type="submit" />
+        </fieldset>
+    </form>
+    <script>
+        $(function () {
+            //$("form").validate();
+        });
+    </script>
+</body>
+
+</html>
